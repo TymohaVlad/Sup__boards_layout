@@ -279,7 +279,7 @@ header::after {
     border-bottom: 1px solid #fff;
     padding: 10px 0;
     width: 565px;
-    font-weight: 700px  ;
+    font-weight: 700px;
 }
 
 .info__specs-item {
@@ -287,30 +287,64 @@ header::after {
     display: flex;
     gap: 25px;
 }
-.info__specs-caption{
+
+.info__specs-caption {
     width: 185px;
 }
+
 /* BUY-- SECTION */
-.buy{
+.buy {
     padding: 150px 0;
 }
-.buy__inner{
+
+.buy__inner {
     display: flex;
     align-items: center;
-    gap: 115px;
+    gap: 90px;
 }
-.buy__content{
-    width: 484px;
-}
-.buy__item-title{
-    
-}
-.buy__list{
 
+.buy__content {
+    width: 510px;
 }
-.buy__item{
 
+.by__title {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-family: "Comfortaa", cursive;
+    font-size: 60px;
+    line-height: 67px;
+    color: #0093A1;
 }
-.buy__item-title{
 
+.buy__list {
+    margin-bottom: 25px;
+}
+
+.buy__item {
+    margin-bottom: 25px;
+    width: 285px;
+}
+
+.buy__item:hover .buy__item-title {
+    color: #0093A1;
+}
+
+.buy__item-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    transition: color .3s;
+}
+
+.buy__price {}
+
+.buy__btn {
+    font-family: "Comfortaa", cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0093A1;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #0093A1;
+    cursor: pointer;
 }
