@@ -290,3 +290,27 @@ header::after {
 .info__specs-caption{
     width: 185px;
 }
+/* BUY-- SECTION */
+.buy{
+    padding: 150px 0;
+}
+.buy__inner{
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+.buy__content{
+    width: 484px;
+}
+.buy__item-title{
+    
+}
+.buy__list{
+
+}
+.buy__item{
+
+}
+.buy__item-title{
+
+}
