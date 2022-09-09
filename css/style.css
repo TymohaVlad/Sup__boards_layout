@@ -40,7 +40,8 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
-.title{
+
+.title {
     font-weight: 400;
     text-transform: uppercase;
     font-family: 'Comfortaa', cursive;
@@ -405,7 +406,8 @@ header::after {
     max-width: 470px;
     margin-bottom: 62px;
 }
-.technology__list{
-    margin: 0;
 
+.technology__list {
+    margin: 0;
+    padding-left: 48px;
 }
