@@ -40,6 +40,13 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+.title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    line-height: 67px;
+}
 
 .header {
     background-image: url(../images/header__bg.jpg);
@@ -244,6 +251,7 @@ header::after {
     border: none;
     cursor: pointer;
     background-color: transparent;
+    position: absolute;
 }
 
 .popup-btn span {
@@ -253,7 +261,6 @@ header::after {
 }
 
 .info__btn {
-    position: absolute;
     bottom: 0;
     right: 0;
 }
@@ -267,10 +274,6 @@ header::after {
 }
 
 .info__specs-title {
-    text-transform: uppercase;
-    font-family: 'Comfortaa', cursive;
-    font-size: 60px;
-    line-height: 67px;
     width: 250px;
 }
 
@@ -294,7 +297,7 @@ header::after {
 
 /* BUY-- SECTION */
 .buy {
-    padding: 150px 0;
+    padding: 150px 0 0;
 }
 
 .buy__inner {
@@ -308,11 +311,7 @@ header::after {
 }
 
 .by__title {
-    text-transform: uppercase;
     margin-bottom: 50px;
-    font-family: "Comfortaa", cursive;
-    font-size: 60px;
-    line-height: 67px;
     color: #0093A1;
 }
 
@@ -339,7 +338,7 @@ header::after {
 .buy__price {
     position: absolute;
     left: 637px;
-    top: 3407px; 
+    top: 3407px;
     width: 201px;
     height: 199px;
     font-weight: 700;
@@ -366,8 +365,47 @@ header::after {
     width: 100%;
     transition: all .3s;
 }
-.buy__btn:hover{
+
+.buy__btn:hover {
     background-color: #B9C400;
     border-color: #B9C400;
     color: #262c27;
+}
+
+/* TECHNOLOGY SECTION */
+.technology {
+    margin-bottom: 150px;
+}
+
+.technology__top {
+    background-image: url(/images/Tech_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.technology__top-inner {
+    position: relative;
+    min-height: 110vh;
+
+}
+
+.technology__btn {
+    right: 350px;
+    top: 50vh;
+}
+
+.technology__top-box {
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+}
+
+.technology__title {
+    max-width: 470px;
+    margin-bottom: 62px;
+}
+.technology__list{
+    margin: 0;
+
 }
