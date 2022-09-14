@@ -119,7 +119,7 @@ header::after {
 .header__btn {
     text-transform: uppercase;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 12px 71px;
     background-color: #262c27;
     border: none;
@@ -265,17 +265,20 @@ header::after {
     color: #fff;
     transition: color .3s;
 }
-.popup-btn path
-.popup-btn circle{
+
+.popup-btn path .popup-btn circle {
     transition: all .3s;
 }
-.popup-btn:hover path{
+
+.popup-btn:hover path {
     fill: #B9C400;
 }
-.popup-btn:hover circle{
+
+.popup-btn:hover circle {
     stroke: #B9C400;
 }
-.popup-btn:hover span{
+
+.popup-btn:hover span {
     color: #0093A1;
 }
 
@@ -369,7 +372,8 @@ header::after {
     background-image: url(/images/Star\ 1.svg);
     transition: transform .3s;
 }
-.buy__price:hover{
+
+.buy__price:hover {
     transform: scale(1.3);
 }
 
@@ -491,9 +495,7 @@ header::after {
     grid-template-rows: 340px 270px 270px;
 }
 
-.gallary-max__img--1 {
-
-}
+.gallary-max__img--1 {}
 
 .gallary-max__img--2 {
     grid-column: 2 /-1;
@@ -531,38 +533,45 @@ header::after {
     text-align: center;
     align-items: center;
 }
-footer{
+
+footer {
     padding: 100px 0 83px;
     background-color: #262c27;
     color: #fff;
 }
-.footer__top{
+
+.footer__top {
     display: flex;
     justify-content: space-between;
 }
-.footer__title{
+
+.footer__title {
     margin-bottom: 27px;
 }
-.footer__form{
+
+.footer__form {
     max-width: 500px;
 }
-.footer__form-input{
+
+.footer__form-input {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid  rgba(255, 255, 255, .4);
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
     display: block;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 57px;
     color: #fff;
 }
-.footer__form-input::placeholder{
+
+.footer__form-input::placeholder {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     opacity: 0.2;
 }
-.footer__form-btn{
+
+.footer__form-btn {
     background-color: #fff;
     padding: 10px 66px;
     border: none;
@@ -575,29 +584,120 @@ footer{
     font-family: "Comfortaa", cursive;
     cursor: pointer;
 }
-.footer__social-title{
+
+.footer__social-title {
     margin-bottom: 28px;
     font-weight: 700;
 }
-.footer__gallary{
- display: grid;
- gap: 52px;
- grid-template-columns: repeat(4, 1fr);
- margin-bottom: 50px;
+
+.footer__gallary {
+    display: grid;
+    gap: 52px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
 }
-.footer__menu-list{
+
+.footer__menu-list {
     font-weight: 700;
     display: flex;
     justify-content: space-between;
 }
-.footer__logo{
+
+.footer__logo {
     align-self: flex-start;
 }
-.footer__logo path{
-    transition: fill .3s;
-} path{
+
+.footer__logo path {
     transition: fill .3s;
 }
-.footer__logo:hover path{
- fill:#0093A1;  
+
+path {
+    transition: fill .3s;
+}
+
+.footer__logo:hover path {
+    fill: #0093A1;
+}
+
+@media (max-width: 1230px) {
+    .header__decor-text--two {
+        left: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .info__top {
+        display: block;
+    }
+
+    .info__top-text {
+        width: 100%;
+    }
+
+    .info__top-text-two {
+        padding-bottom: 25px;
+        padding-top: 45px;
+    }
+     .info__top--img{
+        width: 227px;
+        margin: 0 auto;
+        display: block;
+     }
+     .info__specs{
+        display: block ;
+     }
+}
+
+@media (max-width: 720px) {
+    .header__content__box {
+        margin-top: 90px;
+        margin-right: 0px;
+    }
+
+    .header__top {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 90px;
+    }
+
+    .header__btn {
+        width: 70%;
+    }
+}
+
+@media (max-width: 630px){
+    .info__specs-list{
+        width: 100%;
+    }
+    .info__specs-item{
+        display: block;
+    }
+}
+
+@media (max-width: 414px) {
+    .header__decor-text {
+        display: none;
+    }
+    .header__decor-text--two{
+        display: none;
+    }
+    .header__content {
+        z-index: 5;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .header__content__box {
+        margin-top: 70px;
+        margin-right: 0px;
+    }
+
+    .header__decor-text {
+        display: none;
+    }
 }
